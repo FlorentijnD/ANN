@@ -1,6 +1,4 @@
-clear
-clc
-close all
+
 
 %%%%%%%%%%%
 %algorlm.m
