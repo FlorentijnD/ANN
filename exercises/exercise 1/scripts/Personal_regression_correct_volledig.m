@@ -176,11 +176,11 @@ for training = training_algs
         fprintf('%d \n',j);
         for k = i:niteration
         
-            net = feedforwardnet([n n n],char(training));           
+           net = feedforwardnet([n n n],char(training));           
             % In order to fully use the training set, as training set
             net.divideParam.trainRatio = 1; 
             net.divideParam.valRatio = 0; 
-            net.divideParam.testRatio = 0;
+            net.divideParam.testRatio = 0; 
             
             net.trainParam.epochs=50;
      
